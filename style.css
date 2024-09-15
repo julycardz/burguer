@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+   
+    
+}
+
+
+
+
+
+
+
+
+
