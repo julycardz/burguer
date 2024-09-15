@@ -52,13 +52,15 @@ background-color: #000000;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-position: 50%;
+    background-image: url(imagens/capa.jpg);
+    background-size: cover;
   
 }
 
 .inicio-menu{
 
-    background-position: 50%;
-    background-image: url(imagens/capa.jpg);
+ 
     display: flex;
     align-items: center;
     justify-content: center;
