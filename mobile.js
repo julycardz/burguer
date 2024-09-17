@@ -1,18 +1,19 @@
 
 
+
 function mudaoTamanho() {
    if(window.innerWidth >= 768) {
-       itens.style.display = 'block'
+       navlist.style.display = 'block'
     } else{
-       itens.style.display ='none'
+       navlist.style.display ='none'
     }
    }
 
     function clickMenu() {
-   if(itens.style.display == 'block'){ 
-       itens.style.display = 'none'
+   if(navlist.style.display == 'block'){ 
+       navlist.style.display = 'none'
    } else {
-       itens.style.display = 'block'
+       navlist.style.display = 'block'
    }
 
 }

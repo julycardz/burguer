@@ -28,13 +28,11 @@
      
     .txt1{
         line-height: 1.4;
-        gap: 100px;
        
     }
 
     .titulocardapio{
         font-size: 1.3em;
-        margin-top: 50px;
         
     }
      
@@ -57,6 +55,4 @@
      list-style-type: none;   
     }
 
-    .container{
-    padding: 10px;      
-    }
+    

@@ -5,6 +5,8 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
+    
+    
 }
 
 body{
@@ -14,6 +16,9 @@ body{
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    
+  
+
    
     
 }
