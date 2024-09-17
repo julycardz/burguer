@@ -19,7 +19,7 @@
     border: none;
     background-color: #ffe100f3;
    display: flex;
-   align-items: center;
+    align-items: center;
     transition:.7s ease;
     position: relative;   
     right: -100px;
@@ -71,24 +71,34 @@
 }
 
 
-#burguer{
+.botao-header{
     font-size: 30px;
-padding: 10px;
+     padding: 10px;
     color: #ffe100;
     transition: .7s ease;
     cursor: pointer;
     display: flex; 
     background-color: black;
     width: 100vw;
+    justify-content: space-around;
 
 
 }
 
+#burguer{
+position: relative;
+right: 100px;}
 
+#search{
+    position: relative;
+    left: 70px;
+}
 
 .submenu-list{
     font-size: 10px;
 }
+
+
 }
 
 
