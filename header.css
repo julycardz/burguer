@@ -1,11 +1,5 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
 
-  
-    
-}
+
 
 
 
@@ -18,21 +12,11 @@ header{
 #navlist{
    
    display: flex;
-   
     list-style: none;
     gap: 10px;
     line-height: 2.4;
-    font-size: 1.6em;
-    background-color: #553e3e;
-    display: none;
-   
-
-       
- 
-    
- 
-    
-
+    font-size: 2em;
+    color: #000;
 }
 
 
@@ -40,13 +24,14 @@ header{
    
  color: #ffe100;
  
+ 
     
 
 }
 
 #navlist a{
    
-    color: #000000;
+    color: #a02d2d;
     
        
    
