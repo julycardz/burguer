@@ -101,9 +101,8 @@
 }
 
 #burguer{
-position: relative;
+display: block;
 
-right: 100px;}
 
 #search{
     position: relative;
