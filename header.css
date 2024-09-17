@@ -1,23 +1,13 @@
 header{
     display: flex;
-    position: fixed;
+    justify-content: space-between;
+    flex-direction: row;
 
-    width: 100%;
-    background-color: #000000;
   
     
 }
 
-.btn-header{
-    border: none;
-    background-color: #ffe100f3;
-   display: flex;
-    align-items: center;
-    transition:.7s ease;
-    position: relative;   
-    right: -100px;
-    top: -45px;
-}
+
 
 #navlogo{
     font-size: 24px;
@@ -27,9 +17,19 @@ header{
 
 #navlist{
    
-    display: flex;
-    flex-direction: row;
+   display: flex;
+   
+    list-style: none;
+    gap: 10px;
+    line-height: 2.4;
+    font-size: 1.6em;
+    background-color: #553e3e;
+    display: none;
+   
 
+       
+ 
+    
  
     
 
@@ -44,40 +44,11 @@ header{
 
 }
 
-
 #navlist a{
-    color: white;
-}
-
-
-#navlist a:hover{
-    color: #9c9898d0;
    
-  
+    color: #000000;
     
+       
+   
+   }
 
-  
-}
-
-
-
-
-.botao-header{
-    font-size: 30px;
-    
-    transition: .7s ease;
-    cursor: pointer;
-     color: yellow;
-     display: flex;
-    
-     gap: 100px;
- 
-
-}
-
-
-.btn-header:hover{
-    background-color: #ffffff;
-    transform: scale(96%);
-
-}

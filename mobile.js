@@ -3,9 +3,9 @@
 
 function mudaoTamanho() {
    if(window.innerWidth >= 768) {
-       body.style.display = 'block'
+       header.style.display = 'block'
     } else{
-       body.style.display ='none'
+       header.style.display ='none'
     }
    }
 
