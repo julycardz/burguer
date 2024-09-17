@@ -27,8 +27,7 @@ header{
 
 #navlist{
    
-   
-    display: block;
+    display: flex;
     flex-direction: row;
 
  
