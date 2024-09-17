@@ -62,6 +62,20 @@
     color: white;
 
     
+        list-style: none;
+       
+        display: flex;
+        gap: 10px;
+       
+       flex-direction: column;
+        padding: 10px;
+        line-height: 2.4;
+        font-size: 1.6em;
+        margin-top: 60px;
+      
+        
+    
+    }
 }
 
 #navlist a{
