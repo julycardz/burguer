@@ -1,0 +1,14 @@
+@media (max-width: 1200px) {
+    
+.main{
+    display: block;
+}
+
+.content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+}
