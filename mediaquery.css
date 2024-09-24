@@ -73,6 +73,25 @@ display: none;}
     display: none;
 }
 
+.content-on .menu-toggle{
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+
+.content-on .list-menu{
+    display: block;
+}
+
+.content-on .list-menu li{
+    display: flex;
+    justify-content: center;
+}
+
+.content-on .list-menu li a{
+    font-size: 2rem;
+}
+
 .menu-toggle{
     width: 30px;
     height: 30px;
