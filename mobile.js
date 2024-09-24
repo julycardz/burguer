@@ -1,23 +1,17 @@
+let show = true;
+const menuContent = document.querySelector('.content');
+const menuToggle = menuContent.querySelector ('.menu-toggle');
 
 
 
-function mudaoTamanho() {
-   if(window.innerWidth >= 768) {
-       navlist.style.display = 'block'
-       navlist.style.display = 'none'
 
-    } 
-   }
+menuToggle.addEventListener('click' , () => {
+menuContent.classList.toggle('on', show);
+show = !show;
 
-    function clickMenu() {
 
-        
-   if(navlist.style.display == 'block'){ 
-      navlist.style.display = 'none'
-   } else {
-       navlist.style.display = 'block'
-   }
 
-}
+});
+
 
 

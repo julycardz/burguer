@@ -48,9 +48,29 @@ display: none;}
  .three{
     width:  80%;
     height: 2px;
-    background-color: rgb(126, 6, 6);
+    background-color: rgb(255, 255, 255);
     margin: 6px auto;
     transition-duration: 0.5s ;
+}
+
+.content-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100dvw;
+    height: 100vh;
+    background-color: rgba(30, 31, 30, 0.8);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.content-on.logo{
+    display: none;
 }
 
 .menu-toggle{
