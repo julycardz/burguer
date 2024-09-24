@@ -102,6 +102,10 @@ display: none;
 transform: rotate(45deg) translate(5px, -8px);
 }
 
+.content.on .menu-toggle .three{
+    transform: rotate(-45deg) translate(20px, -6px);
+    }
+
 .menu-toggle{
     width: 30px;
     height: 30px;
@@ -117,5 +121,14 @@ grid-template-columns: repeat(2, mimax(50px, 350px));
 margin-left: 12rem;
 }
 
+.contato-secao{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contato-secao div{
+    margin: 1rem;
+}
 
 }
