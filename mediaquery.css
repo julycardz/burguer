@@ -19,7 +19,7 @@
 
 }
 
-@media (max-width: 992px){
+@media (max-width: 980px){
 html{
 font-size: 50%;
 }
@@ -41,7 +41,9 @@ padding: 0px 40px;
 
 
 .content .list-menu{
-display: none;}
+
+display: none;
+}
 
 .one, 
 .two ,
@@ -53,11 +55,10 @@ display: none;}
     transition-duration: 0.5s ;
 }
 
-.content-on{
-    position: fixed;
+.content.on{
+    position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
     width: 100dvw;
     height: 100vh;
     background-color: rgba(30, 31, 30, 0.8);
@@ -69,27 +70,36 @@ display: none;}
 
 
 
-.content-on.logo{
+.content.on.logo{
     display: none;
 }
 
-.content-on .menu-toggle{
+.content.on .menu-toggle{
     position: absolute;
     right: 40px;
     top: 20px;
 }
 
-.content-on .list-menu{
+.content.on .list-menu{
     display: block;
 }
 
-.content-on .list-menu li{
+.content.on .list-menu li{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
-.content-on .list-menu li a{
+.content.on .list-menu li a{
     font-size: 2rem;
+}
+
+.content.on .menu-toggle .two{
+    opacity: 0;
+}
+
+.content.on .menu-toggle .one{
+transform: rotate(45deg) translate(5px, -8px);
 }
 
 .menu-toggle{
@@ -97,6 +107,7 @@ display: none;}
     height: 30px;
 
 }
+
 
 .itens-cardapio{
 grid-template-columns: repeat(2, mimax(50px, 350px));
