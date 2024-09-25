@@ -27,7 +27,7 @@ body{
     justify-content: space-around;
     align-items: center;
     background-color: #1f1e1f;
-    position: sticky;
+    position: fixed;
     padding-left: 30rem;
 }
 
@@ -82,7 +82,7 @@ transition: all 200ms ;
 
 .first-section{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-image: linear-gradient(rgba(29,29,29,0.8), rgba(29,29,29,0.8)) ,url(imagens/fundopizza.jpg);
     background-position: center center;
     background-size: cover;
@@ -148,7 +148,6 @@ justify-content: space-between;}
 
 .sobre-nos{
  background-color: #1f1e1f;
- width: 100%;
  padding-bottom: 5rem;
  color: white;
  display: flex;
@@ -190,7 +189,6 @@ justify-content: space-between;}
 /* cardapio */
 
 .cardapio{
-    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -203,11 +201,11 @@ justify-content: space-between;}
 }
 
 .itens-cardapio{
-    width: 90%;
+    width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
+ 
     justify-content: center;
     align-items: center;
     gap: 30px;
