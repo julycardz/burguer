@@ -132,3 +132,26 @@ margin-left: 12rem;
 }
 
 }
+
+@media (max-width:600px){
+.conteudo-principal h1{
+    width: 500px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.conteudo-principal h2{
+font-size: 2rem;
+}
+
+.itens-cardapio{
+grid-template-columns: repeat(auto-fit, minmax(50px, 300px) );
+}
+
+.sobre-nos img{
+width: 50%;
+height: 250px;
+margin-left: 150px;
+}
+
+}
