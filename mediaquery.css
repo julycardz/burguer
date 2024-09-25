@@ -141,7 +141,7 @@ margin-left: 12rem;
 
 }
 
-@media  screen and (max-width:600px){
+@media (max-width:600px){
 .conteudo-principal h1{
     width: 500px;
     text-align: center;

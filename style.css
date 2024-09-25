@@ -7,6 +7,7 @@
     text-decoration: none;
     border: none;
     font-family: "Poppins", sans-serif;
+   
     
     
 }
@@ -15,20 +16,25 @@ body{
     
     color: #000000;
     font-size: 62.5%;
- 
+    width: 100vw;
+    height: 100vh;
     overflow-x: hidden;
+    
 
 }
 
+
+
 .content{
     width: 100%;
-    height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #1f1e1f;
     position: fixed;
     padding-left: 30rem;
+    
+
 }
 
 .logo{
@@ -100,6 +106,8 @@ transition: all 200ms ;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    width: 100vw;
 
 }
 
