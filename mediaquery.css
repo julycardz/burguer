@@ -6,7 +6,7 @@
  desktop:992px ate 1200px
  grande telas: acima de 1200px */
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     
 .main{
     display: block;
@@ -27,13 +27,13 @@
 
 }
 
-@media (max-width: 992px){
+@media  screen and (max-width: 992px){
 html{
 font-size: 50%;
 }
 }
 
-@media (max-width: 768px){
+@media  screen and (max-width: 768px){
 html{
 font-size: 40%;
  }
@@ -141,7 +141,7 @@ margin-left: 12rem;
 
 }
 
-@media (max-width:600px){
+@media  screen and (max-width:600px){
 .conteudo-principal h1{
     width: 500px;
     text-align: center;
